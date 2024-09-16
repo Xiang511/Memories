@@ -12,7 +12,7 @@ function updateBreakupTime() {
     let minutes = duration.minutes();
     let seconds = duration.seconds();
 
-    let absoluteTime = ` 距離我們分開已經過了  ${years} 年 ${months} 個月 ${days} 天 ${hours} 小時 ${minutes} 分 ${seconds} 秒`;
+    let absoluteTime = `${years} 年 ${months} 個月 ${days} 天 ${hours} 小時 ${minutes} 分 ${seconds} 秒`;
 
     console.log(absoluteTime);
     let breakup = document.getElementById("breakup");
