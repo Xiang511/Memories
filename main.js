@@ -14,7 +14,7 @@ function updateBreakupTime() {
 
     let absoluteTime = `${years} 年 ${months} 個月 ${days} 天 ${hours} 小時 ${minutes} 分 ${seconds} 秒`;
 
-    console.log(absoluteTime);
+    // console.log(absoluteTime);
     let breakup = document.getElementById("breakup");
     breakup.textContent = absoluteTime;
 }
