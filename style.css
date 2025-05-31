@@ -29,6 +29,9 @@ small{
     line-height: 1.5em;
     color: white;
 }
+.usage small:nth-child(5) {
+    color: black;
+}
 
 .active{
     background-size: 100% 100%;
